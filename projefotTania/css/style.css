@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body{
+    box-sizing: border-box;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    /* background: linear-gradient(#ff6a53 80%,#24951B 100%); */
+}
+
+.header{
+    background: linear-gradient(#8CFFEC, #C68CFF);
+    text-align: center;
+    border: 1px solid rgb(104, 104, 104);
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+.header h1{
+    font-size: 5em;
+    margin-bottom: 15px;
+}
+
+.header p{
+    background-color: #fff;
+    width: 200px;
+    margin-left: 39%;
+    font-size: 1.8rem;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    border-top: 1px solid gray;
+}
+
+/* Conteudo Principal */
+ 
+.container{
+    margin-bottom: 30px;
+    text-align: center;
+    width: 1000px;
+    border: 1px solid rgb(104, 104, 104);
+    border-radius: 10px;
+}
+
+.container h1{
+    border-radius: 2px;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+form{
+    text-align: center;
+}
+
+form input{
+    width: 450px;
+    height: 23px;
+    margin: 5px;
+    border-radius: 10px;
+    text-align: center;
+    overflow: hidden;
+}
+
+#num4{
+    margin-left: 38px;
+}
+
+label{
+    margin: 10px;
+}
+
+.btn-calc{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid rgb(104, 104, 104);
+    border-radius: 10px;
+    width: 240px;
+    height: 30px;
+    font-size: 1.2rem;
+    transition: 0.3s;
+}
+
+.btn-calc:hover{
+    background-color: #84FF7C;
+    border: none;
+    color: white;
+}
+
+#btn-scrolldown{
+    height: 20px;
+    border: none;
+    background-color: #fff;
+    width: 500px;
+    border-radius: 10px;
+    transition: 0.4s;
+}
+
+#btn-scrolldown:hover{
+    background: #2b2b2b;
+    color: #fff;
+}
+
+#content{
+    margin: 10px auto;
+    border: 1px solid gray;
+    border-radius: 10px;
+    height: 300px;
+    width: 500px;
+}
+
+#content p{
+    margin: 10px;
+    font-weight: bold;
+    border: 1px;
+    border-radius: 10px;
+}
+
+#result{
+    display: block;
+}
+
+.vet-inp{
+    text-align: center;
+    width: 40px;
+    border-radius: 10px;
+}
+
+#eps{
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 100px;
+}

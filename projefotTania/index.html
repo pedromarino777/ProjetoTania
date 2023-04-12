@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Trabalho Tania</title>
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+            <h1>Trabalho Tania</h1>
+            <p>Feito por</p>
+            <p>Fernando Hata  Pedro Marino</p>
+        </div>
+        <div class="container">
+            <h1>Calculadora</h1>
+            <div class="main-container">
+                <form action="">
+                    <label for="">F(x) =</label>
+                    <br>
+                    <label for="">X³</label>
+                    <input type="number" name="" id="num1" class="inp-number">
+                    <br>
+                    <label for="">X²</label>
+                    <input type="number" name="" id="num2" class="inp-number">
+                    <br>
+                    <label for="">X</label>
+                    <input type="number" name="" id="num3" class="inp-number">
+                    <br>
+                    <input type="number" name="" id="num4" class="inp-number">
+                </form>
+                <button id="btn-confirm" class="btn-calc">Confirmar</button>
+                <div></div>
+                <button id="btn-scrolldown" onclick="contentClick()">
+                    <i class="fa-solid fa-arrow-up fa-flip-both" id="down"></i>
+                    <i class="fa-solid fa-arrow-up" id="up" style="display: none;"></i>
+                </button>
+                <div id="content" style="display: none;">
+                    <h4>Resultado:</h4>
+                    <p id="result"></p>
+                    <h4>Intervalo:</h4>
+                    <p id="vetor"></p>
+                    <input type="number" id="vet1" class="vet-inp"> <input type="number" name="" id="vet2" class="vet-inp"><br>
+                    <input type="number" id="eps">
+                    <p id="media"></p>
+                    <button id="calc-function" class="btn-calc">Calcular o 0 da função</button>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+   
+
+    <script src="script.js"></script>
+</body>
+</html>
